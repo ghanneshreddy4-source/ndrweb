@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Dashboard - NDR QUIZ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Admin Dashboard</h1>
+  <button onclick="logout()">Logout</button>
+
+  <h2>Upload New Test</h2>
+  <input type="text" id="course" placeholder="Course Name">
+  <input type="text" id="testName" placeholder="Test Name">
+  <input type="file" id="questionFile">
+  <button onclick="uploadTest()">Upload Test</button>
+
+  <h2>Existing Tests</h2>
+  <table id="testTable"></table>
+
+  <script src="script.js"></script>
+</body>
+</html>
